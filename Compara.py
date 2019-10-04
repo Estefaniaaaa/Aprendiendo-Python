@@ -18,7 +18,8 @@ else:
     # Si los números no son iguales.
     if numero1>numero2:
        # Reporta si el primer númeroes mayor al segundo.
-else:
+       print(salida.format(numero1, numero2, "El mayor es el primero"))
+    else:
     # O de lo contrario, si el primero no es mayor al segundo.
-    print(salida.format(numero1, numero2,"El mayor es el segundo".))   
+        print(salida.format(numero1, numero2,"El mayor es el segundo"))   
 # El tipo de una variable es el tipo del valor al que se refiere.
